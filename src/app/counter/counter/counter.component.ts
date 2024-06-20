@@ -7,7 +7,7 @@ import { Component, Input } from '@angular/core';
 })
 export class CounterComponent {
 
-  counter: number = 0;
+  // counter: number = 0;
 
 
   ngOnInit(): void {
@@ -15,15 +15,15 @@ export class CounterComponent {
     //Add 'implements OnInit' to the class.
   }
 
-  onIncrement() {
-    this.counter++;
-  }
+  // onIncrement() {
+  //   this.counter++;
+  // }
 
-  onDecrement() {
-    this.counter--;
-  }
+  // onDecrement() {
+  //   this.counter--;
+  // }
 
-  onReset() {
-    this.counter = 0;
-  }
+  // onReset() {
+  //   this.counter = 0;
+  // }
 }
